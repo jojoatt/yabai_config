@@ -6,7 +6,14 @@ To install Yabai, run the following command:
 ```
 brew install koekeishiya/formulae/yabai
 ```
+To install JankyBorders, run the following command:
 
+**Note**:
+You need  macOS 14.0+ for this tool, if it's not the case please
+comment the line that configured the border appearence in `yabairc` file
+```
+brew install FelixKratz/formulae/borders
+```
 ## Setup
 1. Clone config
 ```
@@ -16,6 +23,10 @@ The yabai config will be in `yabairc` file at `~/.config/yabai` path
 
 2. That's it !
 
+
+**Note**:
+If you used the built-in menu bar of macOS, please comment in `yabairc` file
+the line that reserved a space for custom menu bar calls `external bar`
 ## Usage
 To start yabai:
 ```
